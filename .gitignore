@@ -1,0 +1,7 @@
+DL/
+saved_models/hed_model/
+__pycache__
+data_dir/
+outputs/
+saved_models/
+notebooks/
