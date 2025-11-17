@@ -98,7 +98,6 @@ class eval_config:
     seed = 1234
     lpips_net = 'vgg'
 
-    
     # Prompts
     prompt = """(hyper-realistic photo:1.2), (ultra-detailed skin texture:1.1), 
                 detailed pores, realistic eyes, sharp focus, 
