@@ -96,6 +96,8 @@ class eval_config:
     
     max_samples = 500
     seed = 1234
+    lpips_net = 'vgg'
+
     
     # Prompts
     prompt = """(hyper-realistic photo:1.2), (ultra-detailed skin texture:1.1), 
