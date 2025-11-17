@@ -99,12 +99,8 @@ class eval_config:
     lpips_net = 'vgg'
 
     # Prompts
-    prompt = """(hyper-realistic photo:1.2), (ultra-detailed skin texture:1.1), 
-                detailed pores, realistic eyes, sharp focus, 
-                8k UHD, professional studio lighting, DSLR"""
-    negative_prompt = """(drawing:1.4), (sketch:1.4), (painting:1.3), cartoon, 3D, 
-                        render, CGI, anime, illustration, (deformed:1.2), (disfigured:1.2), 
-                        ugly, bad anatomy, (blurry:1.1), low quality, low-res"""
+    prompt = """(hyper-realistic photo:1.2), (ultra-detailed skin texture:1.1), detailed pores, realistic eyes, sharp focus, 8k UHD, professional studio lighting, DSLR"""
+    negative_prompt = """(drawing:1.4), (sketch:1.4), (painting:1.3), cartoon, 3D, render, CGI, anime, illustration, (deformed:1.2), (disfigured:1.2), ugly, bad anatomy, (blurry:1.1), low quality, low-res"""
     
     # Inference
     num_inference_steps = 30 
