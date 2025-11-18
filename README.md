@@ -28,7 +28,7 @@ This project was managed and developed by:
 
 | **Input Sketch** | **Full ControlNet** | **LoRA on ControlNet** | **LoRA on UNet** | **T2I-Adapter** |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/088221fe-3b08-4b26-87b6-c748f83f414c" width="100%"> | <img src="https://github.com/user-attachments/assets/b4534147-4881-4bc2-b036-4430a32b5eb7" width="100%"> | <img src="https://github.com/user-attachments/assets/86bbd207-9ee7-4036-ba75-976bda2f387f" width="100%"> | <img src="https://github.com/user-attachments/assets/3942f66e-c636-49a1-95a3-0b476160afed" width="100%"> | <img src="https://github.com/user-attachments/assets/14be2cfc-e4e8-4535-b5b5-3965b52fdb6c" width="100%"> |
+| <img src="https://github.com/user-attachments/assets/088221fe-3b08-4b26-87b6-c748f83f414c" width="90%"> | <img src="https://github.com/user-attachments/assets/b4534147-4881-4bc2-b036-4430a32b5eb7" width="90%"> | <img src="https://github.com/user-attachments/assets/86bbd207-9ee7-4036-ba75-976bda2f387f" width="90%"> | <img src="https://github.com/user-attachments/assets/3942f66e-c636-49a1-95a3-0b476160afed" width="90%"> | <img src="https://github.com/user-attachments/assets/14be2cfc-e4e8-4535-b5b5-3965b52fdb6c" width="90%"> |
 
 ## Key Features
 
@@ -154,4 +154,5 @@ streamlit run app.py
 
 
 All paths, model names, and hyperparameters (learning rates, batch sizes, image size, etc.) are centralized in `configs/config.py`. You can modify this file to change project settings without altering the source code.
+
 
