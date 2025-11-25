@@ -110,16 +110,16 @@ Train each of the four strategies. The scripts will read data from the directory
 
 ```bash
 # Train Strategy 1: Full ControlNet Finetune
-python main_train.py --strategy=strategy_1
+python train.py --strategy=strategy_1
 
 # Train Strategy 2: LoRA on ControlNet
-python main_train.py --strategy=strategy_2
+python train.py --strategy=strategy_2
 
 # Train Strategy 3: LoRA on UNet (Requires Strategy 1 to be trained first)
-python main_train.py --strategy=strategy_3
+python train.py --strategy=strategy_3
 
 # Train Strategy 4: T2I-Adapter Finetune
-python main_train.py --strategy=strategy_4
+python train.py --strategy=strategy_4
 ```
 
 ### Step 3: Evaluate the Models
@@ -127,13 +127,13 @@ python main_train.py --strategy=strategy_4
 After training, you can run evaluation on the test set for any (or all) strategies.
 
 ```bash
-python main_evaluate.py --strategy=strategy_1
+python evaluate.py --strategy=strategy_1
 
-python main_evaluate.py --strategy=strategy_2
+python evaluate.py --strategy=strategy_2
 
-python main_evaluate.py --strategy=strategy_3
+python evaluate.py --strategy=strategy_3
 
-python main_evaluate.py --strategy=strategy_4
+python evaluate.py --strategy=strategy_4
 ```
 
   * **Output:** Generated images will be saved in `outputs/generated_for_metrics/`. Metric scores (LPIPS, FID, KID) will be printed to the console and saved in a `.json` file in the same directory.
@@ -154,6 +154,7 @@ streamlit run app.py
 
 
 All paths, model names, and hyperparameters (learning rates, batch sizes, image size, etc.) are centralized in `configs/config.py`. You can modify this file to change project settings without altering the source code.
+
 
 
 
