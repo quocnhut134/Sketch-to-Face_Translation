@@ -4,3 +4,4 @@ __pycache__
 data_dir/
 outputs/
 saved_models/
+report/
